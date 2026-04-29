@@ -12,9 +12,12 @@ The project focuses on:
 - data cleaning
 - time series transformation
 - data visualization using:
-    a. line plot (to show overall trend and growth when displaying daily page views over time)
-    b. bar plot (to help compare seasonal patterns across years when displaying average monthly page views grouped by year)
-    c. box plot (to show trend over time and seasonality more by statistical measures)
+  
+  a. **line plot** (to show overall trend and growth when displaying daily page views over time)
+  
+  b. **bar plot** (to help compare seasonal patterns across years when displaying average monthly page views grouped by year)
+  
+  c. **box plot** (to show trend over time and seasonality more by statistical measures)
 
 The visualizations help reveal patterns such as yearly growth and monthly fluctuations in page views.
 
@@ -51,14 +54,16 @@ no input needed (when running time_series_visualizer.py it imports proper data f
 
 Output:
 
-To be reached when calling both functions implemented:
+To be reached when calling functions implemented:
 * `time_series_visualizer.draw_line_plot()`
 * `time_series_visualizer.draw_bar_plot()`
 * `time_series_visualizer.draw_box_plot()`
 
-![plots](/lineplot.png)
-![plots](/barplot.png)
-![plots](/boxplots.png)
+<p float="left">
+  <img src="/lineplot.png" width="250"/>
+  <img src="/barplot.png" width="250"/>
+  <img src="/boxplots.png" width="350"/>
+</p>
 
 ## Project Structure
 
