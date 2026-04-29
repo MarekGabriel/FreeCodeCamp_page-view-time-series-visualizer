@@ -61,7 +61,7 @@ To be reached when calling functions implemented:
 
 <p float="left">
   <img src="/lineplot.png" width="250"/>
-  <img src="/barplot.png" width="250"/>
+  <img src="/barplot.png" width="150"/>
   <img src="/boxplots.png" width="350"/>
 </p>
 
