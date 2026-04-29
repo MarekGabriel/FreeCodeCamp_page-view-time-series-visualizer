@@ -15,6 +15,10 @@ df = pd.read_csv('https://raw.githubusercontent.com/freeCodeCamp/boilerplate-pag
 
 df = df[(df['value'] > df['value'].quantile(0.025)) & (df['value'] < df['value'].quantile(0.975))]
 #df = df.copy()
+# UWAGA - test_module.py nie przechodziło, pojawiał się jeden error. Mianowicie test przeczyszczonych danych sprawdza, ile jest rekordów w df, ale robi to 
+# w ten sposób, że nakłada funkcję 'int()' na ramkę danych 'int(time_series_visualizer.df.count(numeric_only=True))'. W wersji pythona i jego bibliotek,
+# które posiadam, ta komenda zwraca poprawną liczbę, ale o typie 'pandas.Series'. Niestety funkcja 'int()' wywala błąd (nie dopuszcza Series jako argument).
+# Natomiast rozwiązanie umieściłem na githubie i podałem link do rozwiązania na FCC (tam automat sprawdza wszystko, ale na swojej wersji pythona etc.).
 
 
 def draw_line_plot():
