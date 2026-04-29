@@ -70,3 +70,8 @@ To be reached when calling functions implemented:
 * time_series_visualizer.py — main functions: `draw_line_plot()`, `draw_bar_plot()` & `draw_box_plot()` implementation
 * main.py — An entrypoint file to be used in development. It imports main functions implemented and runs unit tests automatically.
 * test_module.py — unit tests provided by freeCodeCamp
+
+
+## License
+
+This project is licensed under the MIT License.
