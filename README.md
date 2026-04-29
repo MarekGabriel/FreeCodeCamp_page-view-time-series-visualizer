@@ -56,7 +56,9 @@ To be reached when calling both functions implemented:
 * `time_series_visualizer.draw_bar_plot()`
 * `time_series_visualizer.draw_box_plot()`
 
-![plots](/catplot_heatmap.png)
+![plots](/lineplot.png)
+![plots](/barplot.png)
+![plots](/boxplots.png)
 
 ## Project Structure
 
